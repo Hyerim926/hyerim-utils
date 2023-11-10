@@ -1,7 +1,7 @@
 /*
-* esm 지원
+* ts 지원
 * */
-function makeRandomString(length) {
+function makeRandomString(length: number): string {
     const chars =
         'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
