@@ -1,3 +1,7 @@
+/*
+* cjs 지원
+* */
+
 function makeRandomString(length) {
     const chars =
         'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -11,4 +15,4 @@ function makeRandomString(length) {
     return password;
 }
 
-module.exports = {makeRandomString}
+module.exports = {makeRandomString};
